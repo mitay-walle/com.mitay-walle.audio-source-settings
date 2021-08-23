@@ -1,0 +1,20 @@
+{
+  "name": "com.mitay-walle.audiosourcesettings",
+  "version": "1.0.1",
+  "displayName": "Audio Source Settings",
+  "description": "Позволяет сохранять настройки AudioSource в ScriptableObject, что позволяет настраивать AudioSource, создаваемые в Runtime, держать одинаковые настроки нескольких AudioSource в одном месте, создавать RingBuffer для AudioSource",
+  "unity": "2018.4",
+  "unityRelease": "0b5",
+  "documentationUrl": "https://github.com/mitay-walle/Transform_stuff#readme",
+  "licensesUrl": "https://github.com/mitay-walle/Transform_stuff/blob/master/LICENSE",
+  "dependencies": { },
+ "keywords": [
+    "UI",
+    "Animation"
+  ],
+  "author": {
+    "name": "mitay-walle",
+    "email": "mitay-walle@mail.ru",
+    "url": "https://github.com/mitay-walle"
+  }
+}
