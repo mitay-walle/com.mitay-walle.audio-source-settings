@@ -1,4 +1,4 @@
-# AudioSource Settings
+# Unity AudioSource Settings
 Allow to save all AudioSource values to ScriptableObject, to: 
 - setup runtime-created AudioSources
 - keep settings of multiplie AudioSources in sync
