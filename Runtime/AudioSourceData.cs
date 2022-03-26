@@ -9,7 +9,7 @@ public class AudioSourceData : SaveAsCopyPaste
     public static string SaveFieldName = "data";
     public static string SaveType = "AudioSourceDataContainer";
 
-    [Header("Основное")]
+    [Header("General")]
     public AudioClip clip;
     public AudioMixerGroup outputAudioMixerGroup;
     [Range(0f,1f)]public float volume;
@@ -25,7 +25,7 @@ public class AudioSourceData : SaveAsCopyPaste
     public AnimationCurve SpatialBlendСurve;
     public AnimationCurve ReverbZoneMixСurve;
 
-    [Header("Прочее")]
+    [Header("Other")]
     public AudioRolloffMode rolloffMode = AudioRolloffMode.Custom;
     public float panStereo;
     public float spread = 60f;
