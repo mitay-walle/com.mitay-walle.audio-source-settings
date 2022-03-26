@@ -13,11 +13,16 @@ Allow to save all AudioSource values to ScriptableObject, to:
 
 ## II. No way to setup Runtime-created/prespawned AS in different Prefabs/Scenes
 You have to:
-- open each prefab / scene
+- open each context (prefab / scene)
 - select certain AudioSources
-- generate settings in code
-- or write your own Presets-system
-- repeat all, to maintain AudioSources values in sync
+- setip source
+- repeat for each context
+- repeat each time, to maintain AudioSources values in sync
+
+or
+
+- runtime - hardcode generated settings in code
+- write your own Presets-system
 
 # Solution
 Presets system based on C#-plain class and ScriptableObject as Containers
