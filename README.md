@@ -26,10 +26,14 @@ or
 
 # Solution
 Presets system based on C#-plain class and ScriptableObject as Containers
+I. ScriptableObject-based preset can be shared between multiplie AS and contexts
+II. preset can be applied at runtime with Preset.Apply(AudioSource)
 
 # Summary
-- Presets can be ScriptableObjects or plain C# class in your code
 - package
+- Ready-to-use MonoBehavior - AudioSourceSettings
+- small API to customize behaviour
+- Presets can be ScriptableObjects or plain C# class in your code
 - create preset with ProjectWindow/RMB/Create/Audio/AudioSourceData container 
 
 ![alt text](https://github.com/mitay-walle/AudioSourceSettings/blob/master/Documentation/create_menu.png?raw=true)
