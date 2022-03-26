@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class AudioSourceSettings : MonoBehaviour
 {
-    [SerializeField] private AudioSourceAndDataBulk data;
+    [SerializeField] private AudioSourceAndDataBulk data = new AudioSourceAndDataBulk();
 
     private void Start()
     {
