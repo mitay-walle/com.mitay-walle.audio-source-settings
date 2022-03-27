@@ -30,7 +30,7 @@ Presets system based on C#-plain class and ScriptableObject as Containers
 <br>II. preset can be applied at runtime with Preset.Apply(AudioSource)
 
 # Summary
-- package
+- UPM package
 - Ready-to-use MonoBehavior - AudioSourceSettings
 - small API to customize behaviour
 - Presets can be ScriptableObjects or plain C# class in your code
