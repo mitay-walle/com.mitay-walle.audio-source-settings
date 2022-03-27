@@ -26,8 +26,8 @@ or
 
 # Solution
 Presets system based on C#-plain class and ScriptableObject as Containers
-I. ScriptableObject-based preset can be shared between multiplie AS and contexts
-II. preset can be applied at runtime with Preset.Apply(AudioSource)
+<br>I. ScriptableObject-based preset can be shared between multiplie AS and contexts
+<br>II. preset can be applied at runtime with Preset.Apply(AudioSource)
 
 # Summary
 - package
