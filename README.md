@@ -15,7 +15,7 @@ Allow to save all AudioSource values to ScriptableObject, to:
 You have to:
 - open each context (prefab / scene)
 - select certain AudioSources
-- setip source
+- setup source
 - repeat for each context
 - repeat each time, to maintain AudioSources values in sync
 
